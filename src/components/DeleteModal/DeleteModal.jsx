@@ -10,13 +10,13 @@ export default function DeleteModal({ cancleAction, submitAction }) {
         <div className="delete-modal-btns">
           <button
             className="delete-btn delete-modal-accept-btn"
-            onClick={cancleAction}
+            onClick={submitAction}
           >
             بله
           </button>
           <button
             className="delete-btn delete-modal-reject-btn"
-            onClick={submitAction}
+            onClick={cancleAction}
           >
             خیر
           </button>
